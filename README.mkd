@@ -1,0 +1,6 @@
+# UESS
+
+Generation of Space Engine script describing systems, according to the blog post series
+[building the ultimate solar system](https://planetplanet.net/2014/05/13/building-the-ultimate-solar-system/).
+
+This repository is widely discussed in [this blog post](https://lucas.bourneuf.net/blog/uess).
