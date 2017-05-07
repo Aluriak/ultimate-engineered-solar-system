@@ -41,7 +41,7 @@ def hill_radius(earth_mass:float, sun_mass:float, semimajoraxis:float,
 
 
 def planet_script(name:str, star_name:str, semimajoraxis:float,
-                  mass:float=1, radius:float=10000,
+                  mass:float=1, radius:float=6800,
                   ascending_node:float=0., eccentricity:float=0.,
                   inclination:float=0., mean_anomaly:float=0.,
                   color:(int, int, int)=None):
