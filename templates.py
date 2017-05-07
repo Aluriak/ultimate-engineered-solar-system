@@ -5,8 +5,8 @@ Planet    "{name}"
     ParentBody     "{star_name}"
     Class          "Terra"
 
-    Mass            0.986073
-    Radius          6160.23
+    Mass            {mass}
+    Radius          {radius}
     InertiaMoment   0.33103
 
     Oblateness      0.00143271
@@ -218,7 +218,7 @@ Planet    "{name}"
         RefPlane        "Equator"
         SemiMajorAxis   {semimajoraxis}
         Eccentricity    {eccentricity}
-        Inclination     0.0
+        Inclination     {inclination}
         AscendingNode   {ascending_node}
         MeanAnomaly     {mean_anomaly}
     }}
