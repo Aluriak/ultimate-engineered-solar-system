@@ -4,3 +4,27 @@ Generation of Space Engine script describing systems, according to the blog post
 [building the ultimate solar system](https://planetplanet.net/2014/05/13/building-the-ultimate-solar-system/).
 
 This repository is widely discussed in [this blog post](https://lucas.bourneuf.net/blog/uess).
+
+
+
+## Roadmap
+- [x] read the doc about [mods](http://spaceengine.org/manual/making-addons/introduction/), [star making](http://spaceengine.org/manual/making-addons/creating-a-star) and [planet making](http://spaceengine.org/manual/making-addons/creating-a-planet)
+- [x] take the 4-th planet of HIP 6694 star.
+- [x] tweak the parameters to get a very normal thing : 1 UA distance to star, no eccentricity.
+- [x] add 1 more planet on the same orbit… It works !
+- [x] found that the mean anomaly is the degree at which the planet is placed in orbit.
+- [x] create a python script that create a given number of rings and given number of planet in each.
+- [x] found how having ring rotating in the reverse order (solution: inclination of 180° ; [confirmed by community](https://www.reddit.com/r/spaceengine/comments/692b4n/modding_how_to_get_a_planet_to_orbit_in_the/)).
+- [ ] get a system with 6 rings and 42 planets per ring.
+    - [x] get a view of the system from above.
+    - [x] get a view of the system from an outside planet (made complicated by SE crashs).
+        - [x] find [this post](https://www.reddit.com/r/spaceengine/comments/1sclki/spaceengine_crashing_when_flying_too_quickly/), using `/` to pass in interleaving mode is efficient !
+- [x] randomized inclinations of rings, or a raising value, to gives a third dimension to visualizations.
+- [x] compute new or reuse given values for star and planet sizes and orbits.
+    - [ ] re-read the full article series to get which values must be used.
+- [ ] randomize also planets themselves : type, atmosheres, life,…
+- [ ] get cool representations.
+    - [x] from inner planet, at night
+    - [x] from outer planet, at dawn
+    - [x] from outer planet, no atmoshere, with inclinations variations between rings
+        - [x] with less exposure
