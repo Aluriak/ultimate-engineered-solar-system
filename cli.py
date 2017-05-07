@@ -35,7 +35,7 @@ def dedicated_parser() -> argparse.ArgumentParser:
     parser.add_argument('--min-ring-dist', type=float, default=1,
                         help='distance in AU from star to the closer ring')
     parser.add_argument('--ring-gap', type=float, metavar='N', nargs='+',
-                        help='distance in AU between rings', default=[0.2])
+                        help='distance in AU between rings', default=0)
     parser.add_argument('--inclination-delta', type=float,
                         metavar='N', nargs='+', default=[0],
                         help='Modifier(s) to inclination to apply to ring orbits')
